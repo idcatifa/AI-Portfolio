@@ -1,1 +1,426 @@
-<!-- Grok Portfolio -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atifa Khan | Software Engineering Portfolio</title>
+    <meta name="description" content="Personal portfolio of Atifa Khan — Software Engineering undergraduate student passionate about software development, AI, data science and research.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-blobs" aria-hidden="true">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+        <div class="blob blob-4"></div>
+    </div>
+    <div class="bg-sparkles" aria-hidden="true" id="sparkles"></div>
+
+    <!-- Cursor Glow (desktop only) -->
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Atifa<span class="logo-dot">.</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#goals" class="nav-link">Goals</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#goals" class="mobile-link">Goals</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#education" class="mobile-link">Education</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="hero-welcome reveal">Welcome to my portfolio</p>
+                <p class="hero-hello reveal">Hello, I'm</p>
+                <h1 class="hero-name reveal">Atifa Khan</h1>
+                <div class="typing-wrapper reveal">
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="typing-cursor" aria-hidden="true">|</span>
+                </div>
+                <p class="hero-desc reveal">
+                    A curious Software Engineering student who enjoys learning, building and exploring technology. I am passionate about software development and interested in discovering the possibilities of AI, data science and research.
+                </p>
+                <div class="hero-tags reveal">
+                    <span class="tag">💻 Software</span>
+                    <span class="tag">🔬 Research</span>
+                    <span class="tag">📊 Data</span>
+                    <span class="tag">🤖 AI / ML</span>
+                </div>
+                <div class="hero-ctas reveal">
+                    <a href="#projects" class="btn btn-primary">View My Projects →</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect ♡</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="orbit-ring orbit-1"></div>
+                <div class="orbit-ring orbit-2"></div>
+                <div class="code-card">
+                    <div class="code-header">
+                        <span class="code-dot red"></span>
+                        <span class="code-dot yellow"></span>
+                        <span class="code-dot green"></span>
+                    </div>
+                    <pre class="code-body"><code><span class="code-keyword">const</span> developer =
+    <span class="code-string">"Atifa Khan"</span>;
+
+<span class="code-keyword">let</span> goal =
+    <span class="code-string">"Software Engineer"</span>;
+
+<span class="code-keyword">let</span> curiosity =
+    <span class="code-string">"∞"</span>;
+
+<span class="code-comment">// Learn • Build • Explore</span></code></pre>
+                    <div class="code-footer">
+                        <p class="code-motto">Learn • Build • Explore</p>
+                        <p class="code-sub">Growing one project at a time ♡</p>
+                    </div>
+                </div>
+                <span class="float-symbol sym-1">♡</span>
+                <span class="float-symbol sym-2">&lt;/&gt;</span>
+                <span class="float-symbol sym-3">✦</span>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="section about" id="about">
+            <div class="section-header reveal">
+                <p class="section-label">ABOUT ME</p>
+                <h2 class="section-title">A Little About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I am a Software Engineering student with a strong interest in technology, programming and problem solving. I enjoy learning how software works and turning ideas into practical applications and websites.
+                    </p>
+                    <p>
+                        My studies and personal projects have introduced me to software engineering principles, web development, application development, and foundational concepts in artificial intelligence, machine learning and data science. I am continuously learning, building small projects, and exploring research-oriented ways of thinking about technology.
+                    </p>
+                    <p>
+                        I value clear problem solving, clean code practices, and the process of growing through every project I create.
+                    </p>
+                </div>
+                <div class="info-card reveal">
+                    <div class="info-item">
+                        <span class="info-icon">💻</span>
+                        <div>
+                            <span class="info-label">Field</span>
+                            <span class="info-value">Software Engineering</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔬</span>
+                        <div>
+                            <span class="info-label">Interests</span>
+                            <span class="info-value">AI, Data Science &amp; Research</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🌱</span>
+                        <div>
+                            <span class="info-label">Currently</span>
+                            <span class="info-value">Learning &amp; Building Projects</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🌍</span>
+                        <div>
+                            <span class="info-label">Languages</span>
+                            <span class="info-value">Bangla · English · French</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🎯</span>
+                        <div>
+                            <span class="info-label">Career Goal</span>
+                            <span class="info-value">Future Software Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="section skills" id="skills">
+            <div class="section-header reveal">
+                <p class="section-label">MY SKILLS</p>
+                <h2 class="section-title">Things I Am Learning &amp; Working With</h2>
+            </div>
+
+            <div class="skills-groups">
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Programming Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">C</span>
+                        <span class="skill-pill">C++</span>
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">Kotlin</span>
+                        <span class="skill-pill">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Web Development</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">HTML5</span>
+                        <span class="skill-pill">CSS3</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Flask</span>
+                        <span class="skill-pill">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Application Development</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Android Development</span>
+                        <span class="skill-pill">Kotlin</span>
+                        <span class="skill-pill">Android Studio</span>
+                        <span class="skill-pill">UI Design</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Tools &amp; Technologies</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">GitHub</span>
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">Android Studio</span>
+                        <span class="skill-pill">Figma</span>
+                        <span class="skill-pill">XAMPP</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal">
+                    <h3 class="skill-group-title">Areas of Interest</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Software Engineering</span>
+                        <span class="skill-pill">Artificial Intelligence</span>
+                        <span class="skill-pill">Machine Learning</span>
+                        <span class="skill-pill">Data Science</span>
+                        <span class="skill-pill">Research</span>
+                        <span class="skill-pill">Problem Solving</span>
+                        <span class="skill-pill">Software Testing</span>
+                        <span class="skill-pill">Computer Networks</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages Card -->
+            <div class="languages-card reveal">
+                <h3 class="languages-title">Languages</h3>
+                <div class="language-list">
+                    <div class="language-item">
+                        <span class="lang-name">Bangla</span>
+                        <span class="lang-level">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="lang-name">English</span>
+                        <span class="lang-level">Fluent</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="lang-name">French</span>
+                        <span class="lang-level">Basic / Learning</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GOALS / ASPIRATIONS -->
+        <section class="section goals" id="goals">
+            <div class="section-header reveal">
+                <p class="section-label">MY ASPIRATIONS</p>
+                <h2 class="section-title">Where I Want to Go</h2>
+            </div>
+            <div class="goals-grid">
+                <article class="goal-card reveal">
+                    <div class="goal-icon">💻</div>
+                    <h3>Become a Software Engineer</h3>
+                    <p>My primary goal is to become a skilled software engineer capable of designing, developing and maintaining useful and reliable software.</p>
+                </article>
+                <article class="goal-card reveal">
+                    <div class="goal-icon">🔬</div>
+                    <h3>Explore Research</h3>
+                    <p>I want to explore research-oriented areas of technology and develop the ability to investigate problems and contribute to new ideas.</p>
+                </article>
+                <article class="goal-card reveal">
+                    <div class="goal-icon">📊</div>
+                    <h3>Learn Data Science</h3>
+                    <p>I am interested in data science, data analysis, machine learning and using data to understand problems and support better decisions.</p>
+                </article>
+                <article class="goal-card reveal">
+                    <div class="goal-icon">🤖</div>
+                    <h3>Explore AI &amp; ML</h3>
+                    <p>Artificial intelligence and machine learning are areas I would like to study more deeply through future projects and research.</p>
+                </article>
+                <article class="goal-card reveal">
+                    <div class="goal-icon">🌱</div>
+                    <h3>Keep Learning</h3>
+                    <p>Technology constantly changes, so one of my biggest goals is to remain curious and continuously improve my technical and problem-solving abilities.</p>
+                </article>
+                <article class="goal-card reveal">
+                    <div class="goal-icon">🌍</div>
+                    <h3>Build Meaningful Work</h3>
+                    <p>I hope to work on projects that are useful, meaningful and capable of creating positive impact through technology.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section projects" id="projects">
+            <div class="section-header reveal">
+                <p class="section-label">MY WORK</p>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card reveal">
+                    <div class="project-number">01</div>
+                    <div class="project-icon">📚</div>
+                    <h3 class="project-title">GyanAdda</h3>
+                    <p class="project-desc">An educational Android application designed to make learning more interactive through quizzes and educational content.</p>
+                    <div class="project-tags">
+                        <span>Kotlin</span>
+                        <span>Android</span>
+                        <span>Android Studio</span>
+                    </div>
+                    <span class="project-link">View Project →</span>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-number">02</div>
+                    <div class="project-icon">🤖</div>
+                    <h3 class="project-title">MediBot</h3>
+                    <p class="project-desc">A health-focused conversational chatbot project built with Python and Flask, created as an exploration of conversational AI.</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>AI</span>
+                    </div>
+                    <span class="project-link">View Project →</span>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-number">03</div>
+                    <div class="project-icon">📖</div>
+                    <h3 class="project-title">Surah Al-Kahf Website</h3>
+                    <p class="project-desc">A web project presenting Surah Al-Kahf through a clean and simple digital interface using front-end technologies.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <span class="project-link">View Project →</span>
+                </article>
+                <article class="project-card reveal">
+                    <div class="project-number">04</div>
+                    <div class="project-icon">💗</div>
+                    <h3 class="project-title">Personal Portfolio</h3>
+                    <p class="project-desc">A responsive portfolio website created to showcase my skills, projects, education, interests and future aspirations.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>GitHub</span>
+                    </div>
+                    <span class="project-link">View Project →</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="section education" id="education">
+            <div class="section-header reveal">
+                <p class="section-label">EDUCATION</p>
+                <h2 class="section-title">My Academic Journey</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-badge">CURRENT · UNDERGRADUATE</span>
+                        <h3>B.Sc. in Software Engineering</h3>
+                        <p>Currently pursuing my undergraduate degree in Software Engineering. My studies are helping me develop strong foundations in programming, software development, databases, artificial intelligence, networking, software testing and computing.</p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content future-card">
+                        <span class="timeline-badge future">FUTURE DIRECTION</span>
+                        <h3>Software Engineering · Research · Data</h3>
+                        <p>I am interested in continuing my technical development while exploring research, artificial intelligence, machine learning and data science as I grow as a software engineer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CURRENTLY LEARNING -->
+        <section class="section learning">
+            <div class="section-header reveal">
+                <p class="section-label">CURRENTLY LEARNING</p>
+                <h2 class="section-title">Growing My Knowledge</h2>
+            </div>
+            <ul class="learning-list">
+                <li class="learning-item reveal">🌸 Strengthening programming fundamentals</li>
+                <li class="learning-item reveal">🌸 Building web and application projects</li>
+                <li class="learning-item reveal">🌸 Learning Git and GitHub workflows</li>
+                <li class="learning-item reveal">🌸 Exploring Artificial Intelligence</li>
+                <li class="learning-item reveal">🌸 Exploring Data Science &amp; Machine Learning</li>
+                <li class="learning-item reveal">🌸 Improving problem-solving skills</li>
+                <li class="learning-item reveal">🌸 Learning more about software testing</li>
+                <li class="learning-item reveal">🌸 Exploring research opportunities</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact" id="contact">
+            <div class="contact-box reveal">
+                <p class="section-label">GET IN TOUCH</p>
+                <h2 class="section-title">Let's Connect ♡</h2>
+                <p class="contact-text">
+                    I am always interested in learning, exploring new ideas and connecting with people who share an interest in technology and software development.
+                </p>
+                <div class="contact-links">
+                    <a href="https://github.com/" class="contact-btn" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                    <a href="mailto:atifa.khan@example.com" class="contact-btn">Email ✉</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-heart">♡</div>
+        <p>© 2026 Atifa Khan · Built with HTML, CSS &amp; JavaScript</p>
+        <p class="footer-tagline">Learn · Build · Research · Grow</p>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
